@@ -1,0 +1,40 @@
+{
+  "family": "Barlow",
+  "author": "Jeremy Tribby / The Barlow Project Authors",
+  "license": "SIL Open Font License 1.1",
+  "official_repository": "https://github.com/jpt/barlow",
+  "downloaded": "2026-10-04",
+  "modifications": "None. Official prebuilt WOFF2 binaries.",
+  "files": [
+    {
+      "file": "BarlowCondensed-Bold.woff2",
+      "source": "https://raw.githubusercontent.com/jpt/barlow/main/fonts/woff2/BarlowCondensed-Bold.woff2",
+      "sha256": "2a68cbc9b65c87d7805b4e912545dc8f2426f9134affc0f07bec252782bd0bd0",
+      "bytes": 61060
+    },
+    {
+      "file": "BarlowCondensed-Black.woff2",
+      "source": "https://raw.githubusercontent.com/jpt/barlow/main/fonts/woff2/BarlowCondensed-Black.woff2",
+      "sha256": "a5483ea5f0b0d0f165cec13f7e9e2bf8828d5723dc05d8db7591d1cb37864ee7",
+      "bytes": 58052
+    },
+    {
+      "file": "Barlow-Regular.woff2",
+      "source": "https://raw.githubusercontent.com/jpt/barlow/main/fonts/woff2/Barlow-Regular.woff2",
+      "sha256": "2904d763039d78176366e8e32c2c8cebecf2da19e249a7c077cd8c8a736c5cd4",
+      "bytes": 58964
+    },
+    {
+      "file": "Barlow-SemiBold.woff2",
+      "source": "https://raw.githubusercontent.com/jpt/barlow/main/fonts/woff2/Barlow-SemiBold.woff2",
+      "sha256": "444b951177325b7a2f1ee61412a0d66c04d0e1ee438ef14430025f1b128d557f",
+      "bytes": 59936
+    },
+    {
+      "file": "OFL.txt",
+      "source": "https://raw.githubusercontent.com/jpt/barlow/main/OFL.txt",
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "bytes": 4377
+    }
+  ]
+}

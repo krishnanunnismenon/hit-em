@@ -1,0 +1,10 @@
+Use case: stylized-concept
+Asset type: seamless square arena material texture, not a picture of the game
+Primary request: Reconstruct a reusable flat worn painted concrete material consistent with the approved underground toy boxing mock. The attached image is the style reference only, never the output composition.
+Input images: Image 1 (.impeccable/mocks/02-fight-club-zine.png) is approved material and palette reference.
+Subject: one full-bleed, uniformly worn warm grey concrete surface with faded dirty cream paint, fine pits, hairline cracks, subtle scattered charcoal abrasion and restrained mottling.
+Style/medium: tactile printed-comic environment material; natural surface wear without lettering.
+Composition/framing: square 1024 by 1024 pixel material plate viewed exactly orthogonally; no perspective; seamless repeating edges; even distribution of fine wear, no central focal feature.
+Lighting: fully flat diffuse albedo; no illumination gradient, cast shadows, highlights or baked ambient occlusion.
+Color palette: subdued warm greys, dusty limestone and charcoal; no bright colored paint.
+Constraints: material only; no ring, people, props, ropes, posters, panels or scene. Absolutely no words, letters, numbers, symbols, logos, graffiti, inscriptions or watermarks. No border, card corners, folds, holes, vignette or framing. Edges must tile continuously in both directions.

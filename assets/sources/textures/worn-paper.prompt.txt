@@ -1,0 +1,10 @@
+Use case: stylized-concept
+Asset type: seamless square worn paper texture for a semantic HTML control rail
+Primary request: Reconstruct a reusable flat warm cream printed-zine paper material consistent with the approved boxing control strip. The attached mock is the style and palette reference only, never the output composition.
+Input images: Image 1 (.impeccable/mocks/02-fight-club-zine.png) is approved material reference.
+Subject: full-bleed warm cream uncoated paper with delicate visible fibers, faint ink dust, subtle print abrasion and sparse tiny charcoal speckles. It must remain quiet enough for very readable dark control labels.
+Style/medium: tactile aged comic paper; fine grain, restrained low contrast.
+Composition/framing: square 1024 by 1024 pixel texture viewed perfectly orthogonally; seamless repeating edges in both directions; uniformly distributed texture; no focal feature.
+Lighting: flat diffuse color; no directional lighting, shadows, highlights or gradient.
+Color palette: creamy ivory and warm paper beige with only very sparse dark grey ink dust.
+Constraints: paper material only; absolutely no text, letters, words, digits, symbols, illustrations, stamps, writing, logos or watermarks. No layout, controls, knobs, panel dividers, borders, holes, creases, folds, tears, burnt corners, vignette or card chrome. No single dramatic stain. The edge wear and ink frame will be rendered in CSS, so do not include them.

@@ -1,0 +1,56 @@
+{
+  "source": "tools/build-fighters.py",
+  "editableSource": "assets/models/boxing-fighters.blend",
+  "reference": [
+    ".impeccable/mocks/01-ringside-flash.png",
+    ".impeccable/mocks/02-fight-club-zine.png"
+  ],
+  "assets": {
+    "player": {
+      "path": "public/models/player.glb",
+      "bytes": 1421284,
+      "triangles": 76191,
+      "meshCount": 46,
+      "sha256": "0daa5793c2059fb2ba28f5d076f6e9ad70caa877cf44d7588c5f250519f66431"
+    },
+    "rival": {
+      "path": "public/models/rival.glb",
+      "bytes": 906484,
+      "triangles": 49383,
+      "meshCount": 47,
+      "sha256": "3c23ba8dd25c70c14500237f7b775edf950f8c9c334c9ffc6b633a371af32219"
+    },
+    "brick": {
+      "path": "public/models/brick.glb",
+      "bytes": 852572,
+      "triangles": 46271,
+      "meshCount": 50,
+      "sha256": "a667af9b67808ffaf377e4138fcde31e639f157709bf75a9c034b6713b7ad7a5"
+    },
+    "encore": {
+      "path": "public/models/encore.glb",
+      "bytes": 908008,
+      "triangles": 49383,
+      "meshCount": 49,
+      "sha256": "b56ad9df0db859036ea88056effabe835e0140400a26c3a82107fe6242a509f7"
+    }
+  },
+  "blenderVersion": "5.2.0 LTS",
+  "reviewImages": ".impeccable/review/completion-models/completion-asset-{identity}-{front,back,three-quarter,head-front,head-back,head-three-quarter}.png",
+  "runtimeRasterTextures": 0,
+  "exportStrategy": "Evaluated static meshes merged by rig parent/material; editable parts retained in Blender; Mouth/BrowL/BrowR separate; facial surfaces keep printed prefix",
+  "reviewResolution": {
+    "body": [
+      480,
+      600
+    ],
+    "head": [
+      400,
+      400
+    ],
+    "samples": 8,
+    "threads": 2
+  },
+  "note": "Original authored meshes; reconstruct visible identity rather than claiming supplied source geometry. Studio images are evidence only.",
+  "rebuild": "Closed fitted curl masses; low solid asymmetric quiff; integrated brow/orbit/cheek/nose/jaw sculpt and narrow focused eye prints; muscle planes and inset pivots; longer square reference trunks with fitted side stripe; fitted long boots and padded gloves with substantial bound cuffs."
+}

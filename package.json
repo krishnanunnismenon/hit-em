@@ -1,0 +1,44 @@
+{
+  "name": "boxing-game",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.3.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4174 --strictPort",
+    "test": "tsx --test server/*.test.ts src/features/boxing/domain/*.test.ts src/features/boxing/application/*.test.ts src/features/boxing/scene/*.test.ts src/features/boxing/audio/*.test.ts",
+    "format:check": "prettier --check src server shared vite.config.ts .vscode",
+    "controller:list": "tsx server/controller.ts --list",
+    "controller:monitor": "tsx server/controller.ts --monitor",
+    "firmware:status": "node hardware/tools.mjs status",
+    "firmware:build": "node hardware/tools.mjs build",
+    "controller:relay": "tsx server/relay.ts",
+    "firmware:upload": "node hardware/tools.mjs upload",
+    "firmware:test": "c++ -std=c++17 hardware/press-test.cpp -o /tmp/boxing-press-test && /tmp/boxing-press-test"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "three": "0.186.0",
+    "gsap": "3.15.0",
+    "serialport": "13.0.0",
+    "ws": "8.21.3"
+  },
+  "devDependencies": {
+    "vite": "8.3.0",
+    "typescript": "7.0.2",
+    "@vitejs/plugin-react": "6.1.1",
+    "tsx": "4.23.15",
+    "@types/node": "26.6.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.186.0",
+    "@types/ws": "8.18.1",
+    "prettier": "3.9.9"
+  }
+}

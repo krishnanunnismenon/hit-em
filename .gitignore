@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.pnpm-store/
+.hardware-build/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+.impeccable/review/

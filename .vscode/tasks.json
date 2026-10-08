@@ -1,0 +1,106 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Boxing: Run project",
+      "type": "process",
+      "command": "pnpm",
+      "args": ["dev"],
+      "problemMatcher": [],
+      "presentation": {
+        "panel": "dedicated",
+        "reveal": "always"
+      },
+      "runOptions": {
+        "instanceLimit": 1
+      }
+    },
+    {
+      "label": "Boxing: Build",
+      "type": "process",
+      "command": "pnpm",
+      "args": ["build"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Boxing: Tests",
+      "type": "process",
+      "command": "pnpm",
+      "args": ["test"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Boxing: Find controller port",
+      "type": "process",
+      "command": "pnpm",
+      "args": ["controller:list"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Boxing: Monitor controller",
+      "type": "process",
+      "command": "pnpm",
+      "args": ["controller:monitor", "--port", "${input:esp32Port}"],
+      "problemMatcher": [],
+      "presentation": {
+        "panel": "dedicated",
+        "reveal": "always"
+      },
+      "runOptions": {
+        "instanceLimit": 1
+      }
+    },
+    {
+      "label": "Boxing: Check ESP32 tools",
+      "type": "process",
+      "command": "pnpm",
+      "args": ["firmware:status"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Boxing: Build boxing firmware",
+      "type": "process",
+      "command": "pnpm",
+      "args": ["firmware:build"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Boxing: Controller relay",
+      "type": "process",
+      "command": "pnpm",
+      "args": ["controller:relay", "--port", "${input:esp32Port}"],
+      "problemMatcher": [],
+      "runOptions": {
+        "instanceLimit": 1
+      }
+    },
+    {
+      "label": "Boxing: Simulated controller relay",
+      "type": "process",
+      "command": "pnpm",
+      "args": ["controller:relay", "--simulate"],
+      "problemMatcher": [],
+      "runOptions": {
+        "instanceLimit": 1
+      }
+    },
+    {
+      "label": "Boxing: Upload boxing firmware",
+      "type": "process",
+      "command": "pnpm",
+      "args": ["firmware:upload", "--port", "${input:esp32Port}"],
+      "problemMatcher": []
+    }
+  ],
+  "options": {
+    "cwd": "${workspaceFolder}"
+  },
+  "inputs": [
+    {
+      "id": "esp32Port",
+      "type": "promptString",
+      "description": "ESP32 CP2102 port; stop any other bridge first",
+      "default": "/dev/cu.usbserial-0001"
+    }
+  ]
+}

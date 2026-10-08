@@ -1,0 +1,17 @@
+{
+  "source": "tools/build-fighters.py",
+  "kind": "Offline Blender studio verification render",
+  "model": "public/models/rival.glb",
+  "view": "rival-head-front",
+  "reference": [
+    ".impeccable/mocks/01-ringside-flash.png",
+    ".impeccable/mocks/02-fight-club-zine.png"
+  ],
+  "createdAt": "2026-10-05T09:18:39.544157+00:00",
+  "runtimeAsset": false,
+  "batch": "rebuild material fixes 1-5",
+  "resolution": [
+    400,
+    400
+  ]
+}

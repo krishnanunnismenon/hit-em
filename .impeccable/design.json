@@ -1,0 +1,395 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-05T08:46:27.912Z",
+  "title": "Design System: Boxing motion study",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Warehouse ink",
+        "tonalRamp": [
+          "oklch(15% 0.0118 225.69)",
+          "oklch(27% 0.0118 225.69)",
+          "oklch(38% 0.0118 225.69)",
+          "oklch(50% 0.0118 225.69)",
+          "oklch(61% 0.0118 225.69)",
+          "oklch(73% 0.0118 225.69)",
+          "oklch(84% 0.0118 225.69)",
+          "oklch(95% 0.0118 225.69)"
+        ],
+        "rampNote": "Synthesized OKLCH preview ramp; runtime uses the frontmatter token, not these steps."
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Quiet paper",
+        "tonalRamp": [
+          "oklch(15% 0.0297 87.55)",
+          "oklch(27% 0.0297 87.55)",
+          "oklch(38% 0.0297 87.55)",
+          "oklch(50% 0.0297 87.55)",
+          "oklch(61% 0.0297 87.55)",
+          "oklch(73% 0.0297 87.55)",
+          "oklch(84% 0.0297 87.55)",
+          "oklch(95% 0.0297 87.55)"
+        ],
+        "rampNote": "Synthesized OKLCH preview ramp; runtime uses the frontmatter token, not these steps."
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Warm cream",
+        "tonalRamp": [
+          "oklch(15% 0.0262 90.10)",
+          "oklch(27% 0.0262 90.10)",
+          "oklch(38% 0.0262 90.10)",
+          "oklch(50% 0.0262 90.10)",
+          "oklch(61% 0.0262 90.10)",
+          "oklch(73% 0.0262 90.10)",
+          "oklch(84% 0.0262 90.10)",
+          "oklch(95% 0.0262 90.10)"
+        ],
+        "rampNote": "Synthesized OKLCH preview ramp; runtime uses the frontmatter token, not these steps."
+      },
+      "blue": {
+        "role": "primary",
+        "displayName": "Player blue",
+        "tonalRamp": [
+          "oklch(15% 0.1434 257.04)",
+          "oklch(27% 0.1434 257.04)",
+          "oklch(38% 0.1434 257.04)",
+          "oklch(50% 0.1434 257.04)",
+          "oklch(61% 0.1434 257.04)",
+          "oklch(73% 0.1434 257.04)",
+          "oklch(84% 0.1434 257.04)",
+          "oklch(95% 0.1434 257.04)"
+        ],
+        "rampNote": "Synthesized OKLCH preview ramp; runtime uses the frontmatter token, not these steps."
+      },
+      "red": {
+        "role": "primary",
+        "displayName": "Rival red",
+        "tonalRamp": [
+          "oklch(15% 0.1473 33.10)",
+          "oklch(27% 0.1473 33.10)",
+          "oklch(38% 0.1473 33.10)",
+          "oklch(50% 0.1473 33.10)",
+          "oklch(61% 0.1473 33.10)",
+          "oklch(73% 0.1473 33.10)",
+          "oklch(84% 0.1473 33.10)",
+          "oklch(95% 0.1473 33.10)"
+        ],
+        "rampNote": "Synthesized OKLCH preview ramp; runtime uses the frontmatter token, not these steps."
+      },
+      "yellow": {
+        "role": "secondary",
+        "displayName": "Contact yellow",
+        "tonalRamp": [
+          "oklch(15% 0.1509 92.12)",
+          "oklch(27% 0.1509 92.12)",
+          "oklch(38% 0.1509 92.12)",
+          "oklch(50% 0.1509 92.12)",
+          "oklch(61% 0.1509 92.12)",
+          "oklch(73% 0.1509 92.12)",
+          "oklch(84% 0.1509 92.12)",
+          "oklch(95% 0.1509 92.12)"
+        ],
+        "rampNote": "Synthesized OKLCH preview ramp; runtime uses the frontmatter token, not these steps."
+      },
+      "green": {
+        "role": "secondary",
+        "displayName": "Stamina green",
+        "tonalRamp": [
+          "oklch(15% 0.0839 147.83)",
+          "oklch(27% 0.0839 147.83)",
+          "oklch(38% 0.0839 147.83)",
+          "oklch(50% 0.0839 147.83)",
+          "oklch(61% 0.0839 147.83)",
+          "oklch(73% 0.0839 147.83)",
+          "oklch(84% 0.0839 147.83)",
+          "oklch(95% 0.0839 147.83)"
+        ],
+        "rampNote": "Synthesized OKLCH preview ramp; runtime uses the frontmatter token, not these steps."
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Printed divider",
+        "tonalRamp": [
+          "oklch(15% 0.0333 83.56)",
+          "oklch(27% 0.0333 83.56)",
+          "oklch(38% 0.0333 83.56)",
+          "oklch(50% 0.0333 83.56)",
+          "oklch(61% 0.0333 83.56)",
+          "oklch(73% 0.0333 83.56)",
+          "oklch(84% 0.0333 83.56)",
+          "oklch(95% 0.0333 83.56)"
+        ],
+        "rampNote": "Synthesized OKLCH preview ramp; runtime uses the frontmatter token, not these steps."
+      },
+      "impact-particle": {
+        "role": "secondary",
+        "displayName": "Impact particle yellow",
+        "tonalRamp": [
+          "oklch(15% 0.1545 86.59)",
+          "oklch(27% 0.1545 86.59)",
+          "oklch(38% 0.1545 86.59)",
+          "oklch(50% 0.1545 86.59)",
+          "oklch(61% 0.1545 86.59)",
+          "oklch(73% 0.1545 86.59)",
+          "oklch(84% 0.1545 86.59)",
+          "oklch(95% 0.1545 86.59)"
+        ],
+        "rampNote": "Synthesized OKLCH preview ramp; runtime uses the frontmatter token, not these steps."
+      },
+      "super-cyan": {
+        "role": "secondary",
+        "displayName": "Super cyan",
+        "tonalRamp": [
+          "oklch(15% 0.0964 214.24)",
+          "oklch(27% 0.0964 214.24)",
+          "oklch(38% 0.0964 214.24)",
+          "oklch(50% 0.0964 214.24)",
+          "oklch(61% 0.0964 214.24)",
+          "oklch(73% 0.0964 214.24)",
+          "oklch(84% 0.0964 214.24)",
+          "oklch(95% 0.0964 214.24)"
+        ],
+        "rampNote": "Synthesized OKLCH preview ramp; runtime uses the frontmatter token, not these steps."
+      },
+      "super-orange": {
+        "role": "secondary",
+        "displayName": "Super orange",
+        "tonalRamp": [
+          "oklch(15% 0.1377 46.41)",
+          "oklch(27% 0.1377 46.41)",
+          "oklch(38% 0.1377 46.41)",
+          "oklch(50% 0.1377 46.41)",
+          "oklch(61% 0.1377 46.41)",
+          "oklch(73% 0.1377 46.41)",
+          "oklch(84% 0.1377 46.41)",
+          "oklch(95% 0.1377 46.41)"
+        ],
+        "rampNote": "Synthesized OKLCH preview ramp; runtime uses the frontmatter token, not these steps."
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Entrance / pause display",
+        "purpose": "Large stage messages; responsive overrides are documented in DESIGN.md."
+      },
+      "fighter-name": {
+        "displayName": "Fighter identifier",
+        "purpose": "You / Rival HUD names."
+      },
+      "control-title": {
+        "displayName": "Control heading",
+        "purpose": "Attack / Stance / Power."
+      },
+      "selection": {
+        "displayName": "Selection label",
+        "purpose": "Compact uppercase option buttons."
+      },
+      "body": {
+        "displayName": "Supporting body",
+        "purpose": "Instructions and stage copy."
+      },
+      "button": {
+        "displayName": "Action label",
+        "purpose": "Supporting type on action buttons."
+      }
+    },
+    "shadows": [
+      {
+        "name": "dial-shell",
+        "value": "0 3px 7px #33271940, inset 0 0 0 2px #8c877c, inset 0 0 0 6px #303638, inset 0 0 0 8px #575d59",
+        "purpose": "Mechanical dial edge and relief."
+      },
+      {
+        "name": "dial-face",
+        "value": "inset 1px 1px 2px #ffffff24, inset -1px -2px 4px #090f12",
+        "purpose": "Inset face relief."
+      },
+      {
+        "name": "settings-dialog",
+        "value": "0 16px 70px #0008",
+        "purpose": "Native modal surface lift."
+      }
+    ],
+    "motion": [
+      {
+        "name": "dial-turn",
+        "value": "transform 0.2s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Selection orientation; disabled with reduced motion."
+      },
+      {
+        "name": "control-feedback",
+        "value": "0.15s",
+        "purpose": "Button, hover and energy feedback."
+      },
+      {
+        "name": "health-change",
+        "value": "transform 0.2s ease",
+        "purpose": "Health fill; disabled with reduced motion."
+      },
+      {
+        "name": "contact-word-enter",
+        "value": "0.12s power3.out",
+        "purpose": "GSAP contact word; reduced motion removes rotation and scaling."
+      },
+      {
+        "name": "contact-word-exit",
+        "value": "0.2s after 0.65s delay",
+        "purpose": "Retained short fade."
+      },
+      {
+        "name": "super-line-trails",
+        "value": "Two pooled 16-point glove lines during Super player strikes",
+        "purpose": "Current implementation, not approved illustrated echo fidelity; removed with reduced motion."
+      },
+      {
+        "name": "presentation-balance",
+        "value": "240 Hz damped body and separate head angular springs; 0.24 s one-foot replant with 0.045 m maximum lift",
+        "purpose": "Physically informed presentation with directional neck response, separate from fixed 60 Hz study damage/timing; authored tuning, not rigid-body simulation or measured boxing forces."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "min-width: 1600px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "max-width: 1000px"
+      },
+      {
+        "name": "portrait-ui",
+        "value": "max-width: 700px"
+      },
+      {
+        "name": "portrait-camera",
+        "value": "host width < 650px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Start, resume or retry a study session.",
+      "html": "<button class=\"ds-action\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m8 5 11 7-11 7Z\"/></svg>Start sparring</button>",
+      "css": ".ds-action{display:flex;align-items:center;justify-content:center;gap:12px;border:0;cursor:pointer;background:var(--yellow,#f3cc48);color:var(--ink,#181f22);padding:14px 18px;font:600 15px Barlow,sans-serif;min-height:48px;border-radius:3px;transition:background .15s,transform .15s}.ds-action:hover{background:#ffe17b;transform:translateY(-1px)}.ds-action:active{transform:translateY(1px)}.ds-action:focus-visible{outline:3px solid var(--blue,#215eaf);outline-offset:4px}.ds-action:disabled{opacity:.48;cursor:default}@media(prefers-reduced-motion:reduce){.ds-action{transition:none}.ds-action:hover,.ds-action:active{transform:none}}"
+    },
+    {
+      "name": "Dialog action",
+      "kind": "button",
+      "refersTo": "button-dialog",
+      "description": "Ink and cream Done action in settings.",
+      "html": "<button class=\"ds-action ds-dialog-action\">Done</button>",
+      "css": ".ds-action{display:flex;align-items:center;justify-content:center;gap:12px;border:0;cursor:pointer;background:var(--yellow,#f3cc48);color:var(--ink,#181f22);padding:14px 18px;font:600 15px Barlow,sans-serif;min-height:48px;border-radius:3px;transition:background .15s,transform .15s}.ds-action:hover{background:#ffe17b;transform:translateY(-1px)}.ds-action:active{transform:translateY(1px)}.ds-action:focus-visible{outline:3px solid var(--blue,#215eaf);outline-offset:4px}.ds-action:disabled{opacity:.48;cursor:default}@media(prefers-reduced-motion:reduce){.ds-action{transition:none}.ds-action:hover,.ds-action:active{transform:none}}.ds-dialog-action{width:100%;background:var(--ink,#181f22);color:var(--cream,#f3ecd9)}.ds-dialog-action:hover{background:var(--ink,#181f22)}"
+    },
+    {
+      "name": "Stage tool",
+      "kind": "button",
+      "description": "Compact accessible settings/audio/pause tool.",
+      "html": "<button class=\"ds-tool\" aria-label=\"Pause sparring\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M8 5v14M16 5v14\"/></svg></button>",
+      "css": ".ds-tool{width:36px;height:36px;border:0;display:grid;place-items:center;background:#172026d9;color:var(--cream,#f3ecd9);border-radius:4px;cursor:pointer;transition:background .15s}.ds-tool:hover{background:#33434b}.ds-tool:active{background:#172026}.ds-tool:focus-visible{outline:3px solid var(--blue,#215eaf);outline-offset:4px}.ds-tool:disabled{opacity:.48;cursor:default}"
+    },
+    {
+      "name": "Jab selected option",
+      "kind": "button",
+      "refersTo": "selection-attack",
+      "description": "Selected attack option; labels and aria-pressed remain live.",
+      "html": "<button class=\"ds-option ds-attack\" aria-pressed=\"true\"><span aria-hidden=\"true\">●</span>Jab</button>",
+      "css": ".ds-option{display:flex;align-items:center;gap:7px;border:0;cursor:pointer;padding:3px 6px;min-height:22px;text-align:left;font:700 15px/1.1 \"Barlow Condensed\",sans-serif;text-transform:uppercase;border-radius:2px;clip-path:polygon(0 4%,97% 0,100% 8%,99% 96%,4% 100%,0 88%);background:var(--blue,#215eaf);color:white;transition:background .15s}.ds-option:hover{background:var(--blue,#215eaf);color:white}.ds-option:active{filter:brightness(.9)}.ds-option:focus-visible{outline:3px solid var(--blue,#215eaf);outline-offset:4px}.ds-option:disabled{opacity:.48;cursor:default}"
+    },
+    {
+      "name": "Neutral selected option",
+      "kind": "button",
+      "refersTo": "selection-stance",
+      "description": "Selected stance option; labels and aria-pressed remain live.",
+      "html": "<button class=\"ds-option ds-stance\" aria-pressed=\"true\"><span aria-hidden=\"true\">●</span>Neutral</button>",
+      "css": ".ds-option{display:flex;align-items:center;gap:7px;border:0;cursor:pointer;padding:3px 6px;min-height:22px;text-align:left;font:700 15px/1.1 \"Barlow Condensed\",sans-serif;text-transform:uppercase;border-radius:2px;clip-path:polygon(0 4%,97% 0,100% 8%,99% 96%,4% 100%,0 88%);background:var(--red,#b94b35);color:white;transition:background .15s}.ds-option:hover{background:var(--red,#b94b35);color:white}.ds-option:active{filter:brightness(.9)}.ds-option:focus-visible{outline:3px solid var(--blue,#215eaf);outline-offset:4px}.ds-option:disabled{opacity:.48;cursor:default}"
+    },
+    {
+      "name": "2 selected option",
+      "kind": "button",
+      "refersTo": "selection-power",
+      "description": "Selected power option; labels and aria-pressed remain live.",
+      "html": "<button class=\"ds-option ds-power\" aria-pressed=\"true\"><span aria-hidden=\"true\">●</span>2</button>",
+      "css": ".ds-option{display:flex;align-items:center;gap:7px;border:0;cursor:pointer;padding:3px 6px;min-height:22px;text-align:left;font:700 15px/1.1 \"Barlow Condensed\",sans-serif;text-transform:uppercase;border-radius:2px;clip-path:polygon(0 4%,97% 0,100% 8%,99% 96%,4% 100%,0 88%);background:var(--yellow,#f3cc48);color:var(--ink,#181f22);transition:background .15s}.ds-option:hover{background:var(--yellow,#f3cc48);color:var(--ink,#181f22)}.ds-option:active{filter:brightness(.9)}.ds-option:focus-visible{outline:3px solid var(--blue,#215eaf);outline-offset:4px}.ds-option:disabled{opacity:.48;cursor:default}"
+    },
+    {
+      "name": "Mechanical dial",
+      "kind": "custom",
+      "refersTo": "dial",
+      "description": "One of three rotary representations; Power press punches.",
+      "html": "<button class=\"ds-dial\" aria-label=\"Next attack\"><span class=\"ds-ticks\"></span><span class=\"ds-face\"><span class=\"ds-pointer\"></span></span></button>",
+      "css": ".ds-dial{position:relative;width:88px;height:88px;border:0;padding:0;cursor:pointer;background:#171f24;border-radius:50%;box-shadow:0 3px 7px #33271940,inset 0 0 0 2px #8c877c,inset 0 0 0 6px #303638,inset 0 0 0 8px #575d59;transition:filter .15s}.ds-dial:hover{filter:brightness(1.13)}.ds-dial:active{filter:brightness(.9)}.ds-dial:focus-visible{outline:3px solid var(--blue,#215eaf);outline-offset:4px}.ds-dial:disabled{opacity:.48;cursor:default}.ds-ticks{position:absolute;inset:-6px;border-radius:50%;background:repeating-conic-gradient(from 3deg,transparent 0deg 20deg,#555246 20deg 22deg,transparent 22deg 40deg);mask:radial-gradient(transparent 59%,#000 60%,#000 65%,transparent 66%);pointer-events:none}.ds-face{position:absolute;inset:12px;border-radius:50%;background:linear-gradient(135deg,#373f43,#172027);box-shadow:inset 1px 1px 2px #ffffff24,inset -1px -2px 4px #090f12;transform:rotate(-40deg);transition:transform .2s cubic-bezier(.16,1,.3,1)}.ds-pointer{position:absolute;top:3px;left:calc(50% - 3px);width:6px;height:22px;background:var(--blue,#215eaf);border:1px solid #90c0ed;border-radius:2px}@media(prefers-reduced-motion:reduce){.ds-face,.ds-dial{transition:none}}"
+    },
+    {
+      "name": "Segmented stamina meter",
+      "kind": "custom",
+      "description": "Eight divisions, readable label and percentage beside semantic meter.",
+      "html": "<div class=\"ds-energy\"><div class=\"ds-meter-label\"><span>Stamina</span><span>74%</span></div><div class=\"ds-track\" role=\"meter\" aria-label=\"Stamina\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"74\"><span></span><i aria-hidden=\"true\"></i></div></div>",
+      "css": ".ds-energy{width:240px;color:var(--ink,#181f22)}.ds-meter-label{display:flex;align-items:center;justify-content:space-between;font:700 17px/1 \"Barlow Condensed\",sans-serif;text-transform:uppercase}.ds-meter-label>span:last-child{font:400 11px Barlow,sans-serif;font-variant-numeric:tabular-nums}.ds-track{position:relative;height:16px;margin-top:5px;background:#1a2123;border-radius:3px;padding:2px;overflow:hidden;box-shadow:0 0 0 1px var(--ink,#181f22)}.ds-track>span{display:block;height:100%;background:var(--green,#4f8056);transform-origin:left;transform:scaleX(.74);border-radius:1px;transition:transform .15s linear}.ds-track i{position:absolute;inset:2px;background:repeating-linear-gradient(90deg,transparent 0 calc(12.5% - 2px),#171f23 calc(12.5% - 2px) 12.5%);pointer-events:none}@media(prefers-reduced-motion:reduce){.ds-track>span{transition:none}}"
+    },
+    {
+      "name": "Setting checkbox",
+      "kind": "input",
+      "description": "Native accessible preference control; reduced motion and impact sound.",
+      "html": "<label class=\"ds-setting\"><span>Reduced motion<small>Gentler feedback. No camera shake.</small></span><input type=\"checkbox\" checked></label>",
+      "css": ".ds-setting{display:flex;align-items:center;justify-content:space-between;gap:20px;margin:18px 0;color:var(--ink,#181f22);font:600 14px Barlow,sans-serif}.ds-setting small{display:block;font:400 11px Barlow,sans-serif;margin-top:4px;color:#514c3d}.ds-setting input{accent-color:var(--blue,#215eaf);width:20px;height:20px;cursor:pointer}.ds-setting input:hover{filter:brightness(1.1)}.ds-setting input:focus-visible{outline:3px solid var(--blue,#215eaf);outline-offset:4px}"
+    },
+    {
+      "name": "Settings surface",
+      "kind": "custom",
+      "refersTo": "settings-dialog",
+      "description": "Preview of the paper modal surface; runtime uses native dialog focus/backdrop semantics.",
+      "html": "<section class=\"ds-dialog\" aria-label=\"Your corner\"><h2>Your corner</h2><p>A motion study of the first fight. Outcomes are scripted while we tune the look and feel.</p></section>",
+      "css": ".ds-dialog{color:var(--ink,#181f22);background:var(--cream,#f3ecd9) url(\"/textures/worn-paper.webp\");color-scheme:light;width:min(440px,calc(100% - 32px));padding:28px;border:0;border-radius:7px;box-shadow:0 16px 70px #0008;max-height:90svh}.ds-dialog h2{margin:0;font:900 36px \"Barlow Condensed\",sans-serif}.ds-dialog p{font:400 13px/1.5 Barlow,sans-serif;margin:14px 0 24px;color:#514c3d}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Moulded plastic in a printed fight club",
+    "overview": "This records the current interactive design study, refreshed on 2026-10-05 from the scene, semantic UI, stylesheet, authored model pipeline and current capture manifest. The accepted underground comic fight-club world remains: two original articulated moulded-plastic boxers, a worn cream ring, dark warehouse surroundings and a continuous paper control rail. Condensed ink lettering supplies functional hierarchy and brief contact feedback. The ring carries the visual weight.\n\nThe first approved [Ringside flash frame](.impeccable/mocks/01-ringside-flash.png) remains the figure-fidelity authority. [Fight-club zine](.impeccable/mocks/02-fight-club-zine.png) supplies the quiet guard context; [CONCEPT-REVIEW.md](docs/design/CONCEPT-REVIEW.md) and [DIRECTION-CONTRACT.md](docs/design/DIRECTION-CONTRACT.md) preserve the accepted text-free environment and reduced crowd. On 2026-10-05 the user chose “Continue the character modelling pass,” authorizing the dedicated Blender/GLB work. The procedural reference reviews and their approval pause are historical. Both the [first authored-asset review](docs/design/FINISH-REVIEW-AUTHORED-ASSETS.md) and the [fresh full review of its correction](docs/design/FINISH-REVIEW-AUTHORED-ASSETS-REBUILD.md) return **REBUILD**. The fresh review passes evidence and persistence but marks exact visible figure identity/construction **FAIL**. Remaining defects concern focal sculpt/material, the rival’s adult face and guard/contact scowl, directional hair contours, athletic torso/lower-body planes, boot/glove construction and distinct extended punch lines with directional recoil. The user then redirected work to punch identity, leg/waist mechanics and all stance/power combinations. That request authorizes the scoped active-physics motion pass described in [TECHNIQUE-PHYSICS.md](docs/design/TECHNIQUE-PHYSICS.md); further character sculpting remains separate. Neither earlier figure-fidelity REBUILD verdict was changed. This record preserves the first approved exact visible figures as the fidelity authority; the new review does not lower that requirement.\n\nThe runtime now distinguishes prototype combat from isolated motion rehearsals. Engine-owned spacing and weighted opponent movement replace the previous scripted hit/miss cycle in normal play. Dedicated GLBs provide the fighters; a driven physical rig with constrained fixed-length limbs and a separate recoil module animates them. The pure fixed-step study engine alone owns attack legality, timing, outcomes and damage. [IMPLEMENTATION.md](docs/design/IMPLEMENTATION.md) records the earlier asset integration packet. [TECHNIQUE-PHYSICS.md](docs/design/TECHNIQUE-PHYSICS.md) records the 64-technique controller, complete-path tests, live matrix completion and actual mixed-punch video. Historical rolling frame measurements remain dated to their original build. Sustained smoothness, minimal repetition, input latency and mobile hardware performance remain unverified. Full contact-volume combat, production opponent AI, campaign and hardware integration remain later work.\n\nThe subsequent receiving-reaction pass adds per-punch facial expressions and supported recovery steps, plus three original golden canaries, spiral eyes and a surprised mouth for either stunned boxer. A restrained player-stun orbit reveals the face; reduced motion uses still birds and the ordinary camera. Training-only receiving previews provide direct inspection with no damage. [RECEIVING-REACTIONS.md](docs/design/RECEIVING-REACTIONS.md) records the 36-test verification and actual recording; the character-fidelity verdicts above remain unchanged.\n\nThe current footwork refinement expands each punch/stance/power setup into three entry and exit tactics: 192 paths. Independent foot positions, defensive retreats/slips/pivots, pressure steps, planted power shots and coiled Super angles alter the base, knee loading and recovery. The lab can compare three styles for one setup or sequence all 192; labels follow the accepted technique while wheel turns prepare the next action. [FOOTWORK-PERMUTATIONS.md](docs/design/FOOTWORK-PERMUTATIONS.md) records the 43-test verification, actual comparison clip and solver limits.\n\nThe knockout refinement gives either boxer six escalating comic falls: Timber, Jelly knees, The pirouette, Banana peel, Victory too soon and The encore. Each has distinct boot/glove staging, anticipation and a held finish, with dazed faces and existing canaries. Combat owns the fall and landing clocks; the result waits until the joke finishes. Reduced motion keeps a single gentle collapse and distinct fallen pose. The motion lab previews either boxer and sequences the complete bank; [KNOCKOUT-FALLS.md](docs/design/KNOCKOUT-FALLS.md) records the 51-test verification and authored-motion limits.\n\nThe current spacing pass makes footwork consequential: both boxers move around the ring, stances seek different gaps and engine-owned reach determines misses on press and at contact. A flat ink timing strip uses blue/red markers and a yellow reach band to connect the visible gap with punch timing; it also names rival movement and guard. Controls follow the strip, with rehearsal tools below them. Midpoint tracking and a three-quarter camera keep the circling pair readable. The opt-in Live spacing rehearsal shares these rules without damage; [SPACING-COMBAT.md](docs/design/SPACING-COMBAT.md) records the 66-test verification, actual footage and prototype limits.\n\nThe tactical refinement makes the glove poses legible combat signals: lowered left/right gloves, central protection, wide gloves and tucked elbows alter punch effectiveness. The existing ink timing strip names a selected opening or covered lane and gives a compact reason; yellow emphasis marks a viable in-range shot, while protected lanes retain cream text. Impact lettering adds the resolved reason. Opening studies extend the existing rehearsal controls without changing the world, characters or ordinary control scheme. [TACTICAL-SCENARIOS.md](docs/design/TACTICAL-SCENARIOS.md) records the 79-test verification, boxing sources, tunable parameters and remaining balance limits.",
+    "keyCharacteristics": [
+      "Two independently authored Blender/GLB toy fighters with blue player and red rival gloves.",
+      "Native sculpted hair, face, torso, limb and costume surfaces; no fighter raster backplates.",
+      "Active physical punch motors, fixed-length limbs, directional recoil and sequential support steps, separate from combat decisions.",
+      "Cream textured arena and paper rail against dark surroundings.",
+      "Exactly three live UI dials: Attack, Stance and Power.",
+      "Semantic HUD, selections and event lettering over animated geometry.",
+      "Blank environmental posters and 20 instanced spectators.",
+      "Bounded contact feedback and an explicit reduced-motion alternative."
+    ],
+    "rules": [
+      {
+        "name": "The Live Meaning Rule",
+        "body": "Color accompanies text, live meter values and selection state; it does not replace them.",
+        "section": "colors"
+      },
+      {
+        "name": "The Readable Ring Rule",
+        "body": "Keep essential health, opponent cues and selections readable while leaving both fighters visible. Additional lettering belongs to functional information or a contact event.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do preserve the ring as the dominant surface and the continuous paper rail as its control edge.",
+      "Do keep exactly three dials and make pressing Power the punch action.",
+      "Do keep environmental posters blank and crowd motion sparse and independently phased.",
+      "Do implement meters, selections, settings and event words as live semantic UI.",
+      "Do retain editable Blender source, authored GLB ownership and model/font/texture provenance.",
+      "Do keep contact feedback local and retain readable outcomes with reduced motion.",
+      "Do distinguish scripted-study evidence from future combat, hardware and measured performance milestones.",
+      "Do keep the first approved figure identities as the fidelity authority while recording the current reconstruction honestly."
+    ],
+    "donts": [
+      "Don't bake labels, meters, fighter animation or gameplay into a concept image.",
+      "Don't introduce environmental words, branded character identities or extra movement/punch controls.",
+      "Don't replace the continuous rail with a repeated dashboard-card layout.",
+      "Don't use a continuous screenwide Super flash or cover the opponent's tells with lettering.",
+      "Don't treat this extracted system as visual finish approval or full-game completion.",
+      "Don't infer exact figure fidelity, sustained smoothness, minimal repetition, input latency or mobile performance from static fixtures, numeric contact tests or one rolling FPS sample."
+    ]
+  }
+}
